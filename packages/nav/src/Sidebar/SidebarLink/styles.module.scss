@@ -1,0 +1,27 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+.sidebarLink {
+  align-items: center;
+  display: flex;
+  padding: 0;
+
+  :global(.active) {
+    color: $white;
+
+    &:hover,
+    &:focus {
+      color: $primary;
+      text-decoration: none;
+    }
+  }
+}
+
+.sidebarLinkIcon {
+  flex: 0 0 1.25em;
+  padding: 0.875em;
+}
+
+.sidebarLinkTitle {
+  flex: 1;
+}

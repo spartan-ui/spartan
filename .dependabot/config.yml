@@ -1,0 +1,18 @@
+version: 1
+update_configs:
+  - package_manager: "javascript"
+    directory: "/"
+    update_schedule: "weekly"
+    version_requirement_updates: "auto"
+  - package_manager: "javascript"
+    directory: "/packages/icons"
+    update_schedule: "weekly"
+    version_requirement_updates: "auto"
+  - package_manager: "javascript"
+    directory: "/packages/layout"
+    update_schedule: "weekly"
+    version_requirement_updates: "auto"
+  - package_manager: "javascript"
+    directory: "/packages/nav"
+    update_schedule: "weekly"
+    version_requirement_updates: "auto"

@@ -1,0 +1,48 @@
+{
+  "name": "@spartan-ui/spartan",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Endemol Shine Group Technology",
+    "url": "https://github.com/EndemolShineGroup"
+  },
+  "homepage": "https://github.com/spartan-ui/spartan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spartan-ui/spartan.git"
+  },
+  "engines": {
+    "node": ">=12",
+    "yarn": ">=1"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "clean": "lerna run --scope @spartan-ui/* clean",
+    "build": "lerna run --scope @spartan-ui/* build",
+    "lint": "lerna run --scope @spartan-ui/* lint",
+    "lint:fix": "lerna run --scope @spartan-ui/* lint:fix",
+    "test": "lerna run --scope @spartan-ui/* test",
+    "release": "lerna publish --conventional-commits --github-release --yes"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8",
+    "@commitlint/config-conventional": "^8",
+    "@endemolshinegroup/cz-github": "^1",
+    "@endemolshinegroup/prettier-config": "^1",
+    "autoprefixer": "^9",
+    "commitizen": "^4",
+    "cross-env": "^7",
+    "cssnano": "^4",
+    "husky": "^4",
+    "lerna": "^3",
+    "node-sass": "^4",
+    "rollup-plugin-postcss": "^2",
+    "rollup-plugin-stylelint": "^1"
+  },
+  "workspaces": {
+    "packages": [
+      "example",
+      "packages/*"
+    ]
+  }
+}

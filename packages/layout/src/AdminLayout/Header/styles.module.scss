@@ -1,0 +1,7 @@
+.header {
+  grid-area: header;
+
+  :global(.navbar) {
+    height: 100%;
+  }
+}

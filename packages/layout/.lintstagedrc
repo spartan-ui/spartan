@@ -1,0 +1,10 @@
+{
+  "*.scss": [
+    "stylelint --fix"
+  ],
+  "*.ts?(x)": [
+    "eslint --fix",
+    "prettier --write",
+    "cross-env CI=true tsdx test --findRelatedTests"
+  ]
+}

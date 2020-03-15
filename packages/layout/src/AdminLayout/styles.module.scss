@@ -1,0 +1,10 @@
+$header-height: 3.5rem;
+$footer-height: 3.125rem;
+
+.wrapper {
+  display: grid;
+  grid-template-areas: 'header' 'content' 'footer';
+  grid-template-columns: 1fr;
+  grid-template-rows: $header-height 5fr $footer-height;
+  min-height: 100%;
+}
