@@ -73,7 +73,7 @@ to your bundle size.
 [icon-npm]: https://img.shields.io/npm/v/@spartan-ui/spartan.svg?logo=npm&longCache=true&style=flat-square
 [link-npm]: https://www.npmjs.com/package/@spartan-ui/spartan
 [icon-ci]: https://img.shields.io/github/workflow/status/spartan-ui/spartan/CI/master.svg?logo=github-actions&longCache=true&style=flat-square
-[link-ci]: https://travis-ci.com/spartan-ui/spartan
+[link-ci]: https://github.com/spartan-ui/spartan/actions
 [icon-coverage]: https://img.shields.io/codecov/c/github/spartan-ui/spartan/develop.svg?logo=codecov&longCache=true&style=flat-square
 [link-coverage]: https://codecov.io/gh/spartan-ui/spartan
 
