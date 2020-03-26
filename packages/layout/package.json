@@ -1,7 +1,7 @@
 {
   "name": "@spartan-ui/layout",
   "description": "Spartan Core React component library",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/layout.esm.js",
@@ -43,7 +43,6 @@
     "react": ">=16",
     "react-bootstrap": ">=1.0.0-beta.14"
   },
-  "dependencies": {},
   "devDependencies": {
     "@testing-library/dom": "^6",
     "@testing-library/jest-dom": "^5",
@@ -68,12 +67,12 @@
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16",
     "rimraf": "^3",
-    "tsdx": "^0.13.0",
-    "tslib": "^1",
-    "typescript": "^3",
     "stylelint": "^13",
     "stylelint-config-sass-guidelines": "^7",
-    "stylelint-config-standard": "^20"
+    "stylelint-config-standard": "^20",
+    "tsdx": "^0.13.0",
+    "tslib": "^1",
+    "typescript": "^3"
   },
   "jest": {
     "collectCoverage": true,

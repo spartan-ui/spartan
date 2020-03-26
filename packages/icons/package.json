@@ -1,7 +1,7 @@
 {
   "name": "@spartan-ui/icons",
   "description": "Spartan Icon React component library",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/icons.esm.js",
@@ -46,13 +46,13 @@
     "react-bootstrap": ">=1.0.0-beta.14"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1",
+    "@fortawesome/free-solid-svg-icons": "^5",
+    "@fortawesome/react-fontawesome": "^0.1.6",
     "@testing-library/dom": "^6",
     "@testing-library/jest-dom": "^5",
     "@testing-library/react": "^9",
     "@testing-library/user-event": "^10",
-    "@fortawesome/fontawesome-svg-core": "^1",
-    "@fortawesome/free-solid-svg-icons": "^5",
-    "@fortawesome/react-fontawesome": "^0.1.6",
     "@types/jest": "^25",
     "@types/react": "^16",
     "@types/react-dom": "^16",
@@ -70,12 +70,12 @@
     "react": "^16",
     "react-dom": "^16",
     "rimraf": "^3",
-    "tsdx": "^0.13.0",
-    "tslib": "^1",
-    "typescript": "^3",
     "stylelint": "^13",
     "stylelint-config-sass-guidelines": "^7",
-    "stylelint-config-standard": "^20"
+    "stylelint-config-standard": "^20",
+    "tsdx": "^0.13.0",
+    "tslib": "^1",
+    "typescript": "^3"
   },
   "jest": {
     "collectCoverage": true,
