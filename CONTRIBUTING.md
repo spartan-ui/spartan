@@ -7,7 +7,7 @@
   consistent style throughout the codebase keeps the cognitive load low for all
   contributors and keeps the code style homogeneous.
 
-- **Node 12 LTS:** `@spartan-ui/spartan` has a minimum Node version
+- **Node 12 LTS:** `@spartan-ui/spartan-ui` has a minimum Node version
   requirement of 12.0.0. Pull requests must not require a Node version greater
   than that unless the feature is enabled/backported via
   [TypeScript][link-typescript].
@@ -47,7 +47,7 @@ In order to contribute, you'll need to checkout the source from GitHub and
 install dependencies using Yarn:
 
 ``` bash
-git clone https://github.com/spartan-ui/spartan.git
+git clone https://github.com/spartan-ui/spartan-ui.git
 cd spartan
 yarn
 yarn test
@@ -61,7 +61,7 @@ releases.
 
 ## Reporting a security vulnerability
 
-We want to ensure that `@spartan-ui/spartan` is secure for everyone. If
+We want to ensure that `@spartan-ui/spartan-ui` is secure for everyone. If
 you've discovered a security vulnerability, we appreciate your help in
 disclosing it to us in a [responsible manner][link-responsible-disclosure].
 

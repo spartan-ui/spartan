@@ -1,4 +1,4 @@
-# @spartan-ui/spartan
+# @spartan-ui/spartan-ui
 
 [![MIT Licensed][icon-license]][link-license]
 [![NPM Version][icon-npm]][link-npm]
@@ -18,12 +18,13 @@ dashboards with [React Bootstrap][link-react-bootstrap].
 
 ## Background
 
-We love Bootstrap and React Bootstrap, but they only get you so far. Spartan
-was built to enable our team to rapidly build applications that were consistent
-and reliable, from a UI perspective. Most of our admin panels tended to
-converge on the same sort of design; header, footer, sidebar and content. We've
-spent enough time creating (and re-creating) that pattern, so we thought we'd
-finally extract the components into their own package(s).
+We love Bootstrap and React Bootstrap, but they only get you so far when
+building administrative dashboards. Spartan was built to enable our team to
+rapidly build applications that were consistent and reliable from a UI
+perspective. Most of our admin panels tended to converge on the same sort of
+design; header, footer, sidebar and content. We've spent enough time creating
+(and re-creating) those patterns, so we thought we'd finally extract the
+components into their own repository and open-source it.
 
 ## Getting started
 
@@ -68,27 +69,27 @@ to your bundle size.
 
 ### Table
 
-[icon-license]: https://img.shields.io/github/license/spartan-ui/spartan.svg?longCache=true&style=flat-square
+[icon-license]: https://img.shields.io/github/license/spartan-ui/spartan-ui.svg?longCache=true&style=flat
 [link-license]: LICENSE
-[icon-npm]: https://img.shields.io/npm/v/@spartan-ui/spartan.svg?logo=npm&longCache=true&style=flat-square
-[link-npm]: https://www.npmjs.com/package/@spartan-ui/spartan
-[icon-ci]: https://img.shields.io/github/workflow/status/spartan-ui/spartan/CI/master.svg?logo=github-actions&longCache=true&style=flat-square
-[link-ci]: https://github.com/spartan-ui/spartan/actions
-[icon-coverage]: https://img.shields.io/codecov/c/github/spartan-ui/spartan/develop.svg?logo=codecov&longCache=true&style=flat-square
-[link-coverage]: https://codecov.io/gh/spartan-ui/spartan
+[icon-npm]: https://img.shields.io/github/lerna-json/v/spartan-ui/spartan-ui?label=npm&logo=npm&longCache=true&style=flat
+[link-npm]: https://www.npmjs.com/package/@spartan-ui/spartan-ui
+[icon-ci]: https://img.shields.io/github/workflow/status/spartan-ui/spartan-ui/CI/master.svg?logo=github-actions&longCache=true&style=flat
+[link-ci]: https://github.com/spartan-ui/spartan-ui/actions
+[icon-coverage]: https://img.shields.io/codecov/c/github/spartan-ui/spartan-ui/develop.svg?logo=codecov&longCache=true&style=flat
+[link-coverage]: https://codecov.io/gh/spartan-ui/spartan-ui
 
-[icon-issues]: https://img.shields.io/codeclimate/issues/spartan-ui/spartan.svg?longCache=true&style=flat-square
-[link-issues]: https://codeclimate.com/github/spartan-ui/spartan/issues
-[icon-maintainability]: https://img.shields.io/codeclimate/maintainability/spartan-ui/spartan.svg?longCache=true&style=flat-square
-[link-maintainability]: https://codeclimate.com/github/spartan-ui/spartan
-[icon-dependabot]: https://img.shields.io/badge/dependabot-enabled-blue.svg?logo=dependabot&longCache=true&style=flat-square
+[icon-issues]: https://img.shields.io/codeclimate/issues/spartan-ui/spartan-ui.svg?logo=code-climate&longCache=true&style=flat
+[link-issues]: https://codeclimate.com/github/spartan-ui/spartan-ui/issues
+[icon-maintainability]: https://img.shields.io/codeclimate/maintainability/spartan-ui/spartan-ui.svg?logo=code-climate&longCache=true&style=flat
+[link-maintainability]: https://codeclimate.com/github/spartan-ui/spartan-ui
+[icon-dependabot]: https://img.shields.io/badge/dependabot-enabled-blue.svg?logo=dependabot&longCache=true&style=flat
 [link-dependabot]: https://greenkeeper.io/
 
-[icon-commitizen]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?longCache=true&style=flat-square
+[icon-commitizen]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?longCache=true&style=flat
 [link-commitizen]: http://commitizen.github.io/cz-cli/
-[icon-prettier]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?logo=prettier&longCache=true&style=flat-square
+[icon-prettier]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?logo=prettier&longCache=true&style=flat
 [link-prettier]: https://prettier.io/
-[icon-jest]: https://img.shields.io/badge/tested_with-jest-99424f.svg?logo=jest&longCache=true&style=flat-square
+[icon-jest]: https://img.shields.io/badge/tested_with-jest-99424f.svg?logo=jest&longCache=true&style=flat
 [link-jest]: https://jestjs.io/
 
 [link-react-bootstrap]: https://react-bootstrap.github.io/

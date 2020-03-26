@@ -14,10 +14,10 @@
     "name": "Endemol Shine Group Technology",
     "url": "https://github.com/EndemolShineGroup"
   },
-  "homepage": "https://github.com/spartan-ui/spartan",
+  "homepage": "https://github.com/spartan-ui/spartan-ui",
   "repository": {
     "type": "git",
-    "url": "https://github.com/spartan-ui/spartan.git",
+    "url": "https://github.com/spartan-ui/spartan-ui.git",
     "directory": "packages/nav"
   },
   "engines": {
