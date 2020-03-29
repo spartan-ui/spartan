@@ -44,7 +44,7 @@ jobs:
       - name: Set Git identity
         run: |
           git config --local user.name 'spartan-ui [bot]'
-          git config --local user.email 'bot@spartan-ui.com'
+          git config --local user.email 'bot@spartan-ui.dev'
           git remote set-url origin https://$GITHUB_ACTOR:$GH_TOKEN@github.com/$GITHUB_REPOSITORY
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
