@@ -1,14 +1,14 @@
 {
   "name": "example",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@fortawesome/react-fontawesome": "^0.1.9",
-    "@spartan-ui/icons": "^0.0.2",
-    "@spartan-ui/layout": "^0.0.2",
-    "@spartan-ui/nav": "^0.0.2",
+    "@spartan-ui/icons": "^0.0.3",
+    "@spartan-ui/layout": "^0.0.3",
+    "@spartan-ui/nav": "^0.0.3",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
