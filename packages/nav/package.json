@@ -1,7 +1,7 @@
 {
   "name": "@spartan-ui/nav",
   "description": "Spartan Navigation React component library",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/nav.esm.js",
