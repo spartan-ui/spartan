@@ -22,6 +22,7 @@
     "lint": "lerna run --scope @spartan-ui/* lint",
     "lint:fix": "lerna run --scope @spartan-ui/* lint:fix",
     "test": "lerna run --scope @spartan-ui/* test",
+    "test:coverage": "lerna run --scope @spartan-ui/* test -- --coverage=true",
     "release": "lerna publish --conventional-commits --create-release=github --yes"
   },
   "devDependencies": {

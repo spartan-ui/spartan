@@ -78,7 +78,6 @@
     "typescript": "^3"
   },
   "jest": {
-    "collectCoverage": true,
     "coveragePathIgnorePatterns": [
       "/node_modules/",
       "/test/",
