@@ -75,7 +75,7 @@ to your bundle size.
 [link-npm]: https://www.npmjs.com/package/@spartan-ui/spartan-ui
 [icon-ci]: https://img.shields.io/github/workflow/status/spartan-ui/spartan-ui/CI/master.svg?logo=github-actions&longCache=true&style=flat
 [link-ci]: https://github.com/spartan-ui/spartan-ui/actions
-[icon-coverage]: https://img.shields.io/codecov/c/github/spartan-ui/spartan-ui/develop.svg?logo=codecov&longCache=true&style=flat
+[icon-coverage]: https://img.shields.io/codecov/c/github/spartan-ui/spartan-ui/master.svg?logo=codecov&longCache=true&style=flat
 [link-coverage]: https://codecov.io/gh/spartan-ui/spartan-ui
 
 [icon-issues]: https://img.shields.io/codeclimate/issues/spartan-ui/spartan-ui.svg?logo=code-climate&longCache=true&style=flat
