@@ -31,6 +31,7 @@
     "@endemolshinegroup/cz-github": "^1",
     "@endemolshinegroup/prettier-config": "^1",
     "autoprefixer": "^9",
+    "codecov": "^3",
     "commitizen": "^4",
     "cross-env": "^7",
     "cssnano": "^4",
