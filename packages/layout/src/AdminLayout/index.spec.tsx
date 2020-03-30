@@ -1,9 +1,13 @@
+import { render } from '@testing-library/react';
 import React from 'react';
-import ReactDOM from 'react-dom';
+
 import { AdminLayout } from './index';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<AdminLayout>""</AdminLayout>, div);
-  ReactDOM.unmountComponentAtNode(div);
+describe('<AdminLayoutFooter />', () => {
+  it('renders correctly', () => {
+    const { getByText } = render(<AdminLayout>Empty Layout</AdminLayout>);
+    const layoutElement = getByText('Empty Layout');
+    expect(layoutElement).toBeInTheDocument();
+    expect(layoutElement).toHaveClass('wrapper');
+  });
 });

@@ -1,17 +1,14 @@
 import { render } from '@testing-library/react';
 import React from 'react';
 
-import { Footer } from './index';
+import { Footer } from './';
 
 describe('<Footer />', () => {
-  it('renders', () => {
+  it('renders correctly', () => {
     const { getByText } = render(
-      <Footer
-        tagline="Endemol Shine Group"
-        version="1.0.0"
-      />
+      <Footer tagline="Spartan UI" version="1.0.0" />,
     );
-    const copyrightElement = getByText(/endemol shine group/i);
+    const copyrightElement = getByText(/spartan/i);
     expect(copyrightElement).toBeInTheDocument();
     const versionElement = getByText(/1\.0\.0/i);
     expect(versionElement).toBeInTheDocument();

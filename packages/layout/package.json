@@ -62,6 +62,7 @@
     "eslint-plugin-jsx-a11y": "^6",
     "eslint-plugin-react": "^7",
     "eslint-plugin-react-hooks": "^1",
+    "identity-obj-proxy": "^3",
     "lint-staged": "^10",
     "react": "^16",
     "react-bootstrap": "^1.0.0-beta.14",
@@ -86,7 +87,7 @@
       "node_modules"
     ],
     "moduleNameMapper": {
-      "\\.(css|less|sass|scss)$": "<rootDir>/__mocks__/styleMock.ts",
+      "\\.(css|less|sass|scss)$": "identity-obj-proxy",
       "\\.(gif|ttf|eot|svg)$": "<rootDir>/__mocks__/fileMock.ts"
     },
     "setupFilesAfterEnv": [
