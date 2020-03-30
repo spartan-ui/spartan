@@ -27,9 +27,10 @@
   "scripts": {
     "precommit": "lint-staged",
     "clean": "rimraf dist/",
-    "prestart": "yarn clean",
+    "generate": "yarn barrelsby --delete --directory src/ --exclude \"@types|setupTests|spec\" --singleQuotes",
+    "prestart": "yarn clean && yarn generate",
     "start": "tsdx watch",
-    "prebuild": "yarn clean",
+    "prebuild": "yarn clean && yarn generate",
     "build": "tsdx build",
     "lint": "yarn lint:js && yarn lint:scss",
     "lint:fix": "yarn lint:js --fix && yarn lint:scss --fix",
@@ -59,6 +60,7 @@
     "@typescript-eslint/eslint-plugin": "^2",
     "@typescript-eslint/parser": "^2",
     "babel-eslint": "^10",
+    "barrelsby": "^2",
     "eslint": "^6",
     "eslint-config-react-app": "^5",
     "eslint-plugin-flowtype": "^3",
@@ -82,7 +84,8 @@
       "/node_modules/",
       "/test/",
       "/__fixtures__/",
-      "/src/@types"
+      "/src/@types",
+      "/src/index.tsx"
     ],
     "moduleDirectories": [
       "src",
