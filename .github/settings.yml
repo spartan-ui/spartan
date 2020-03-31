@@ -133,7 +133,7 @@ labels:
     color: "257759"
     description: "Adding missing tests or correcting existing tests"
 
-  - name: "Type: Maintenance"
+  - name: "Type: Chore"
     color: "abd406"
     description: "Repository Maintenance"
 
@@ -144,3 +144,15 @@ labels:
   - name: "Type: Question"
     color: "cc317c"
     description: "Further information is requested"
+
+  - name: "Package: Icons"
+    color: "973ddb"
+    description: "Icons package"
+
+  - name: "Package: Layout"
+    color: "973ddb"
+    description: "Layout package"
+
+  - name: "Package: Nav"
+    color: "973ddb"
+    description: "Nav package"
