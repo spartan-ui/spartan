@@ -85,7 +85,7 @@
       "/test/",
       "/__fixtures__/",
       "/src/@types",
-      "/src/index.tsx"
+      "/src/index.ts"
     ],
     "moduleDirectories": [
       "src",
