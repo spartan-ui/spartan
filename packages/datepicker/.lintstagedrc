@@ -1,0 +1,11 @@
+{
+  "*.scss": [
+    "stylelint --fix"
+  ],
+  "*.ts?(x)": [
+    "yarn generate",
+    "eslint --fix",
+    "prettier --write",
+    "cross-env CI=true tsdx test --findRelatedTests"
+  ]
+}

@@ -1,0 +1,9 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+.dateRangePicker:global(.form-control) {
+  &:focus {
+    border: 1px solid $primary;
+    box-shadow: 0 0 0 1px $primary;
+  }
+}

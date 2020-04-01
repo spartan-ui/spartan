@@ -1,0 +1,108 @@
+{
+  "name": "@spartan-ui/datepicker",
+  "description": "Spartan Date-picker React component library",
+  "version": "0.0.9",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/datepicker.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "author": {
+    "name": "Spartan UI Team",
+    "url": "https://github.com/spartan-ui"
+  },
+  "homepage": "https://github.com/spartan-ui/spartan-ui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spartan-ui/spartan-ui.git",
+    "directory": "packages/datepicker"
+  },
+  "engines": {
+    "node": ">=12",
+    "yarn": ">=1"
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "clean": "rimraf dist/",
+    "generate": "yarn barrelsby --delete --directory src/ --exclude \"@types|setupTests|spec\" --singleQuotes",
+    "prestart": "yarn clean && yarn generate",
+    "start": "tsdx watch",
+    "prebuild": "yarn clean && yarn generate",
+    "build": "tsdx build",
+    "lint": "yarn lint:js && yarn lint:scss",
+    "lint:fix": "yarn lint:js --fix && yarn lint:scss --fix",
+    "lint:js": "eslint --ext js,ts,tsx src",
+    "lint:scss": "stylelint --aei src/**/*.scss",
+    "test": "tsdx test --passWithNoTests",
+    "prepare": "tsdx build"
+  },
+  "peerDependencies": {
+    "@fortawesome/fontawesome-svg-core": ">=1",
+    "@fortawesome/react-fontawesome": ">=0.1.6",
+    "bootstrap": ">=4",
+    "date-fns": "^2.11.1",
+    "react": ">=16",
+    "react-bootstrap": ">=1.0.0-beta.14",
+    "react-day-picker": "^7.4.0"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^6",
+    "@testing-library/jest-dom": "^5",
+    "@testing-library/react": "^9",
+    "@testing-library/user-event": "^10",
+    "@types/bootstrap": "^4.3.2",
+    "@types/jest": "^25",
+    "@types/react": "^16",
+    "@types/react-dom": "^16",
+    "@typescript-eslint/eslint-plugin": "^2",
+    "@typescript-eslint/parser": "^2",
+    "babel-eslint": "^10",
+    "barrelsby": "^2",
+    "date-fns": "^2.11.1",
+    "eslint": "^6",
+    "eslint-config-react-app": "^5",
+    "eslint-plugin-flowtype": "^3",
+    "eslint-plugin-import": "^2",
+    "eslint-plugin-jsx-a11y": "^6",
+    "eslint-plugin-react": "^7",
+    "eslint-plugin-react-hooks": "^1",
+    "lint-staged": "^10",
+    "react": "^16",
+    "react-bootstrap": "^1.0.0",
+    "react-day-picker": "^7.4.0",
+    "react-dom": "^16",
+    "rimraf": "^3",
+    "stylelint": "^13",
+    "stylelint-config-sass-guidelines": "^7",
+    "stylelint-config-standard": "^20",
+    "tsdx": "^0.13.0",
+    "tslib": "^1",
+    "typescript": "^3"
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/test/",
+      "/__fixtures__/",
+      "/src/@types",
+      "/src/index.ts"
+    ],
+    "moduleDirectories": [
+      "src",
+      "node_modules"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less|sass|scss)$": "<rootDir>/__mocks__/styleMock.ts",
+      "\\.(gif|ttf|eot|svg)$": "<rootDir>/__mocks__/fileMock.ts"
+    },
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/setupTests.ts"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
