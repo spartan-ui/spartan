@@ -141,6 +141,10 @@ labels:
     color: "ffd412"
     description: "Changes to CI configuration files and scripts"
 
+  - name: "Type: Research"
+    color: "ff613d"
+    description: "Further research is requested"
+
   - name: "Type: Question"
     color: "cc317c"
     description: "Further information is requested"
