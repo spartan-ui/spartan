@@ -16,3 +16,7 @@ update_configs:
     directory: "/packages/nav"
     update_schedule: "weekly"
     version_requirement_updates: "auto"
+  - package_manager: "javascript"
+    directory: "/packages/select"
+    update_schedule: "weekly"
+    version_requirement_updates: "auto"

@@ -160,3 +160,7 @@ labels:
   - name: "Package: Nav"
     color: "973ddb"
     description: "Nav package"
+
+  - name: "Package: Select"
+    color: "973ddb"
+    description: "Select package"

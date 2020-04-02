@@ -13,6 +13,7 @@ Please check the packages that this bug report applies to:
 - [ ] `@spartan-ui/icons`
 - [ ] `@spartan-ui/layout`
 - [ ] `@spartan-ui/nav`
+- [ ] `@spartan-ui/select`
 
 **Describe the issue**
 A clear and concise description of where and how the documentation
