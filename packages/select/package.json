@@ -46,7 +46,7 @@
     "react-select": ">=3"
   },
   "devDependencies": {
-    "@testing-library/dom": "^6",
+    "@testing-library/dom": "^7",
     "@testing-library/jest-dom": "^5",
     "@testing-library/react": "^9",
     "@testing-library/user-event": "^10",
