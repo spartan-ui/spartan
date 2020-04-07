@@ -10,6 +10,8 @@
     "react-app"
   ],
   "rules": {
-    "@typescript-eslint/explicit-function-return-type": 0
-  }
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "import/no-default-export": 2
+  },
+  "ignorePatterns": ["*.d.ts"]
 }
