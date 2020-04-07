@@ -170,3 +170,7 @@ labels:
   - name: "Package: Select"
     color: "973ddb"
     description: "Select package"
+
+  - name: "Package: Datagrid"
+    color: "973ddb"
+    description: "Datagrid package"

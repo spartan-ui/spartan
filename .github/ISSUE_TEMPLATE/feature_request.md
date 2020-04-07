@@ -17,6 +17,7 @@ Please check the packages that this feature request applies to:
 - [ ] `@spartan-ui/layout`
 - [ ] `@spartan-ui/nav`
 - [ ] `@spartan-ui/select`
+- [ ] `@spartan-ui/datagrid`
 
 **Is your feature request related to a problem? Please describe.**
 <!--

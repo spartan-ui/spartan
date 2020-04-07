@@ -17,6 +17,7 @@ Please check the packages that this bug report applies to:
 - [ ] `@spartan-ui/layout`
 - [ ] `@spartan-ui/nav`
 - [ ] `@spartan-ui/select`
+- [ ] `@spartan-ui/datagrid`
 
 **Describe the bug**
 <!--
