@@ -1,0 +1,113 @@
+{
+  "name": "@spartan-ui/datagrid",
+  "description": "Spartan Datagrid React component library",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/datagrid.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "author": {
+    "name": "Spartan UI Team",
+    "url": "https://github.com/spartan-ui"
+  },
+  "homepage": "https://github.com/spartan-ui/spartan-ui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spartan-ui/spartan-ui.git",
+    "directory": "packages/datagrid"
+  },
+  "engines": {
+    "node": ">=12",
+    "yarn": ">=1"
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "clean": "rimraf dist/",
+    "generate": "yarn barrelsby --delete --directory src/ --exclude \"@types|setupTests|spec\" --singleQuotes",
+    "prestart": "yarn clean && yarn generate",
+    "start": "tsdx watch",
+    "prebuild": "yarn clean && yarn generate",
+    "build": "tsdx build",
+    "lint": "yarn lint:js && yarn lint:scss",
+    "lint:fix": "yarn lint:js --fix && yarn lint:scss --fix",
+    "lint:js": "eslint --ext js,ts,tsx src",
+    "lint:scss": "stylelint --aei src/**/*.scss",
+    "test": "tsdx test --env=jsdom-fourteen",
+    "prepare": "tsdx build"
+  },
+  "peerDependencies": {
+    "@ag-grid-community/core": ">=22",
+    "@ag-grid-community/react": ">=22",
+    "@ag-grid-community/all-modules": ">=22",
+    "@fortawesome/fontawesome-svg-core": ">=1",
+    "@fortawesome/react-fontawesome": ">=0.1.6",
+    "bootstrap": ">=4",
+    "react": ">=16",
+    "react-bootstrap": ">=1.0.0-beta.14"
+  },
+  "devDependencies": {
+    "@ag-grid-community/core": "^22",
+    "@ag-grid-community/react": "^22",
+    "@ag-grid-community/all-modules": "^22",
+    "@fortawesome/fontawesome-svg-core": "^1",
+    "@fortawesome/free-solid-svg-icons": "^5",
+    "@fortawesome/react-fontawesome": "^0.1.6",
+    "@testing-library/dom": "^6",
+    "@testing-library/jest-dom": "^5",
+    "@testing-library/react": "^9",
+    "@testing-library/user-event": "^10",
+    "@types/jest": "^25",
+    "@types/react": "^16",
+    "@types/react-dom": "^16",
+    "@typescript-eslint/eslint-plugin": "^2",
+    "@typescript-eslint/parser": "^2",
+    "babel-eslint": "^10",
+    "barrelsby": "^2",
+    "eslint": "^6",
+    "identity-obj-proxy": "^3",
+    "eslint-config-react-app": "^5",
+    "eslint-plugin-flowtype": "^3",
+    "eslint-plugin-import": "^2",
+    "eslint-plugin-jsx-a11y": "^6",
+    "eslint-plugin-react": "^7",
+    "eslint-plugin-react-hooks": "^1",
+    "jest-environment-jsdom-fourteen": "^1.0.1",
+    "lint-staged": "^10",
+    "react": "^16",
+    "react-dom": "^16",
+    "rimraf": "^3",
+    "stylelint": "^13",
+    "stylelint-config-sass-guidelines": "^7",
+    "stylelint-config-standard": "^20",
+    "tsdx": "^0.13.0",
+    "tslib": "^1",
+    "typescript": "^3"
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/test/",
+      "/__fixtures__/",
+      "/src/@types",
+      "/src/index.ts"
+    ],
+    "moduleDirectories": [
+      "src",
+      "node_modules"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less|sass|scss)$": "identity-obj-proxy",
+      "\\.(gif|ttf|eot|svg)$": "<rootDir>/__mocks__/fileMock.ts"
+    },
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/setupTests.ts"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

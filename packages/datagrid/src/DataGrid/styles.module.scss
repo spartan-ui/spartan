@@ -1,0 +1,13 @@
+.dataGrid {
+  height: 100%;
+  width: 100%;
+
+  :global(.ag-status-bar) {
+    background: #f5f7f7;
+    padding: 0;
+  }
+
+  :global(.highlight-row) {
+    background: rgba(0, 0, 0, 0.05);
+  }
+}
