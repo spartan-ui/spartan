@@ -1,8 +1,8 @@
 import React from 'react';
 import { FormControl } from 'react-bootstrap';
 import ReactSelect from 'react-select';
-import { Props as StateManagerProps } from 'react-select/src/stateManager';
 import { Props as ReactSelectProps } from 'react-select/src/Select';
+import { Props as StateManagerProps } from 'react-select/src/stateManager';
 
 export type SelectProps<T = {}> = ReactSelectProps<T> & StateManagerProps<T>;
 

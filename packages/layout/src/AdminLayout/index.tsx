@@ -3,7 +3,6 @@ import React from 'react';
 import { AdminLayoutBody } from './Body';
 import { AdminLayoutFooter } from './Footer';
 import { AdminLayoutHeader } from './Header';
-
 import styles from './styles.module.scss';
 
 export type AdminLayoutProps = {
@@ -11,12 +10,8 @@ export type AdminLayoutProps = {
 };
 
 export const AdminLayout = (props: AdminLayoutProps) => {
-  return (
-    <div className={styles.wrapper}>
-      {props.children}
-    </div>
-  );
-}
+  return <div className={styles.wrapper}>{props.children}</div>;
+};
 
 AdminLayout.Body = AdminLayoutBody;
 AdminLayout.Footer = AdminLayoutFooter;

@@ -11,7 +11,15 @@
   ],
   "rules": {
     "@typescript-eslint/explicit-function-return-type": 0,
-    "import/no-default-export": 2
+    "import/no-default-export": 2,
+    "import/order": [2,
+      {
+        "alphabetize": {
+          "order": "asc"
+        },
+        "newlines-between": "always"
+      }
+    ]
   },
   "ignorePatterns": ["*.d.ts"]
 }
