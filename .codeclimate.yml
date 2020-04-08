@@ -1,5 +1,10 @@
 version: "2"
 
+checks:
+  method-lines:
+    config:
+      threshold: 50
+
 exclude_patterns:
   - ".dependabot/"                                  # Exclude GitHub issue templates
   - ".github/"                                      # Exclude GitHub issue templates
