@@ -34,11 +34,11 @@ repository:
   allow_rebase_merge: true
 
   # Either 'true' to allow squash-merging pull requests, or 'false' to prevent squash-merging.
-  delete_branch_on_merge: true
+  # Commented out for now (see https://github.com/probot/settings/issues/134)
+#  delete_branch_on_merge: true
 
 # https://developer.github.com/v3/repos/branches/#update-branch-protection
 branches:
-
   - name: master
     protection:
       required_linear_history: true
