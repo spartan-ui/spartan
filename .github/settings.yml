@@ -47,12 +47,18 @@ branches:
         dismiss_stale_reviews: true
         require_code_owner_reviews: true
         dismissal_restrictions:
+          users: [ spartan-ui-bot ]
           teams: [ community, endemolshinegroup ]
       required_status_checks:
         strict: true
-        contexts: []
+        contexts: [
+          lint,
+          test,
+          codecov/project,
+        ]
       enforce_admins: false
       restrictions:
+        users: [ spartan-ui-bot ]
         teams: [ community, endemolshinegroup ]
 
 labels:
