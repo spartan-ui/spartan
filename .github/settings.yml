@@ -38,28 +38,28 @@ repository:
 #  delete_branch_on_merge: true
 
 # https://developer.github.com/v3/repos/branches/#update-branch-protection
-branches:
-  - name: master
-    protection:
-      required_linear_history: true
-      required_pull_request_reviews:
-        required_approving_review_count: 1
-        dismiss_stale_reviews: true
-        require_code_owner_reviews: true
-        dismissal_restrictions:
-          users: [ spartan-ui-bot ]
-          teams: [ community, endemolshinegroup ]
-      required_status_checks:
-        strict: true
-        contexts: [
-          lint,
-          test,
-          codecov/project,
-        ]
-      enforce_admins: false
-      restrictions:
-        users: [ spartan-ui-bot ]
-        teams: [ community, endemolshinegroup ]
+#branches:
+#  - name: master
+#    protection:
+#      required_linear_history: true
+#      required_pull_request_reviews:
+#        required_approving_review_count: 1
+#        dismiss_stale_reviews: true
+#        require_code_owner_reviews: true
+#        dismissal_restrictions:
+#          users: [ spartan-ui-bot ]
+#          teams: [ community, endemolshinegroup ]
+#      required_status_checks:
+#        strict: true
+#        contexts: [
+#          lint,
+#          test,
+#          codecov/project,
+#        ]
+#      enforce_admins: false
+#      restrictions:
+#        users: [ spartan-ui-bot ]
+#        teams: [ community, endemolshinegroup ]
 
 labels:
 
