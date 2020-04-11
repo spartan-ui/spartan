@@ -1,7 +1,7 @@
 {
   "name": "@spartan-ui/datagrid",
   "description": "Spartan Datagrid React component library",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/datagrid.esm.js",
@@ -40,9 +40,9 @@
     "prepare": "tsdx build"
   },
   "peerDependencies": {
+    "@ag-grid-community/all-modules": ">=22",
     "@ag-grid-community/core": ">=22",
     "@ag-grid-community/react": ">=22",
-    "@ag-grid-community/all-modules": ">=22",
     "@fortawesome/fontawesome-svg-core": ">=1",
     "@fortawesome/react-fontawesome": ">=0.1.6",
     "bootstrap": ">=4",
@@ -50,9 +50,9 @@
     "react-bootstrap": ">=1.0.0-beta.14"
   },
   "devDependencies": {
+    "@ag-grid-community/all-modules": "^22",
     "@ag-grid-community/core": "^22",
     "@ag-grid-community/react": "^22",
-    "@ag-grid-community/all-modules": "^22",
     "@fortawesome/fontawesome-svg-core": "^1",
     "@fortawesome/free-solid-svg-icons": "^5",
     "@fortawesome/react-fontawesome": "^0.1.6",
@@ -68,13 +68,13 @@
     "babel-eslint": "^10",
     "barrelsby": "^2",
     "eslint": "^6",
-    "identity-obj-proxy": "^3",
     "eslint-config-react-app": "^5",
     "eslint-plugin-flowtype": "^3",
     "eslint-plugin-import": "^2",
     "eslint-plugin-jsx-a11y": "^6",
     "eslint-plugin-react": "^7",
     "eslint-plugin-react-hooks": "^1",
+    "identity-obj-proxy": "^3",
     "jest-environment-jsdom-fourteen": "^1.0.1",
     "lint-staged": "^10",
     "react": "^16",
