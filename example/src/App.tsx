@@ -6,6 +6,8 @@ import React from 'react';
 import { Col, Image, Navbar, Row } from 'react-bootstrap';
 import { BrowserRouter, NavLink, Route } from 'react-router-dom';
 
+import { FormInputsPage } from './pages/FormInputsPage';
+
 import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.css';
 import '@spartan-ui/layout/dist/styles.css';
@@ -52,9 +54,15 @@ function App() {
         <AdminLayout.Body>
           <Sidebar isVisible={true}>
             <Sidebar.Link
-              title="Link"
+              title="Home"
               exact={true}
               path={"/"}
+              icon={faHome}
+            />
+            <Sidebar.Link
+              title="Form Inputs"
+              exact={true}
+              path={"/formInputs"}
               icon={faHome}
             />
             <Sidebar.Item>
@@ -62,6 +70,7 @@ function App() {
             </Sidebar.Item>
           </Sidebar>
           <Route path={"/"} exact={true} component={Home}/>
+          <Route path="/formInputs" component={FormInputsPage}></Route>
           <Route path={"/foo"}></Route>
         </AdminLayout.Body>
         <AdminLayout.Footer>

@@ -170,3 +170,7 @@ labels:
   - name: "Package: Select"
     color: "973ddb"
     description: "Select package"
+
+  - name: "Package: Datepicker"
+      color: "973ddb"
+      description: "Datepicker package"
