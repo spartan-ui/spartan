@@ -1,7 +1,7 @@
 {
   "name": "@spartan-ui/nav",
   "description": "Spartan Navigation React component library",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/nav.esm.js",
@@ -50,7 +50,7 @@
     "@fortawesome/fontawesome-svg-core": "^1",
     "@fortawesome/free-solid-svg-icons": "^5",
     "@fortawesome/react-fontawesome": "^0.1.6",
-    "@spartan-ui/icons": "^0.2.1",
+    "@spartan-ui/icons": "^0.2.2",
     "@testing-library/dom": "^6",
     "@testing-library/jest-dom": "^5",
     "@testing-library/react": "^9",
