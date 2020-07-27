@@ -1,7 +1,7 @@
 {
   "name": "@spartan-ui/select",
   "description": "Spartan Select React component library",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/select.esm.js",

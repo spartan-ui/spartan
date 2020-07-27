@@ -1,7 +1,7 @@
 {
   "name": "@spartan-ui/datagrid",
   "description": "Spartan Datagrid React component library",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/datagrid.esm.js",
