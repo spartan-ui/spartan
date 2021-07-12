@@ -56,7 +56,7 @@
     "@fortawesome/fontawesome-svg-core": "^1",
     "@fortawesome/free-solid-svg-icons": "^5",
     "@fortawesome/react-fontawesome": "^0.1.6",
-    "@testing-library/dom": "^6",
+    "@testing-library/dom": "^8",
     "@testing-library/jest-dom": "^5",
     "@testing-library/react": "^9",
     "@testing-library/user-event": "^10",
