@@ -37,7 +37,7 @@
     "cssnano": "^4",
     "husky": "^4",
     "lerna": "^3",
-    "node-sass": "^4",
+    "node-sass": "^7",
     "rollup-plugin-postcss": "^2",
     "rollup-plugin-stylelint": "^1"
   },
